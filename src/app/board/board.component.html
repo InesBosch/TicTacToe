@@ -1,4 +1,5 @@
-<h1>Current Player: {{ player }}</h1>
+<h1>TicTacToe</h1>
+<h2>Current Player: {{ player }}</h2>
 <button nbButton outline status="danger" (click) = newGame() >Start New Game</button>
 <h2 *ngIf = "winner"> <!--Structural directive, only occurs if winner has been declared-->
     Player {{winner}} won the game!
